@@ -68,7 +68,7 @@
     </sap:WorkflowViewStateService.ViewState>
     <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="885.333333333333,2957.33333333333" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <TryCatch.Try>
-        <Sequence sap2010:Annotation.AnnotationText="WorkFlow Dscription- Create a workflow to extract all the information(Subject, From, To, CC, Date, Body, Attachment if any) from 10 emails in FIFO(First In First Out) order and save it in excel and then move those mail to any folder in the mailbox." sap:VirtualizedContainerService.HintSize="846.666666666667,2719.33333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
+        <Sequence sap2010:Annotation.AnnotationText="WorkFlow Description- Create a workflow to extract all the information(Subject, From, To, CC, Date, Body, Attachment if any) from 10 emails in FIFO(First In First Out) order and save it in excel and then move those mail to any folder in the mailbox." sap:VirtualizedContainerService.HintSize="846.666666666667,2719.33333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
           <Sequence.Variables>
             <Variable x:TypeArguments="scg:List(snm:MailMessage)" Name="listMailBox" />
             <Variable x:TypeArguments="x:Int32" Name="MailCount" />
